@@ -3,19 +3,93 @@ html
   head
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
-    title hello world
+    title Music
 
     link(rel='stylesheet', type='text/css', href='build/build.css')
 
-  body
+  body(style='background-color:rgb(255,51,38)')
 
     article
+      section(style='background-color:#DEB887;border-radius:40px;')
+        h1(style='font-size:50px;text-shadow: 3px 3px 3px #A0522D') Teknologi Kolaborasi Perangkat Lunak
 
-      section
-        h1 hello world
+      section(style='background-color:#DEB887;border-radius:40px;')
+        h2(style='text-shadow: 3px 3px 3px #A0522D') ALL ABOUT MUSIC
+        h4 Disusun Oleh:
+        ul
+          br
+          li KELVIN JINGGA - 141112681
+          li KEVIN FRANSETIO - 141110876
+          li WIDIANTO WINOTO - 141112362
+          li YOHANES JERRY - 141114851
 
-      section
-        h2 Touch Interaction
+      section(style='background-color:#DEB887;border-radius:40px;').history
+        h2(style='text-shadow: 3px 3px 3px #A0522D') Sejarah Musik
+        p Musik dikenal sejak kehadiran manusia modern Homo sapien yakni sekitar 180.000 hingga 100.000 tahun yang lalu. Tiada siapa tahu bila manusia mula  mengenal seni dan musik. Dari penemuan arkeologi pada lokasi-lokasi seperti pada benua Afrika sekitar 180.000 tahun hingga 100.000 tahun dahulu telah menunjukkan perubahan evolusi dari pemikiran otak manusia. Manusia menyatakan perasaan takut mereka dan gembira menggunakan suara-suara. Bermain-main dengan suara mereka menjadi lagu, hymne atau syair nyanyian kecil yang diinspirasikan oleh kicauan burung. Kayu-kayu dan batuan keras dipukul untuk mengeluarkan bunyi dan irama yang mengasyikkan. Mungkin secara tidak sengaja mereka telah mengetuk batang pohon yang berongga di dalamnya dengan batang kayu yang mengeluarkan bunyi kuat. Kulit binatang yang mereka gunakan sebagai pakaian diletakkan pula untuk menutup rongga kayu tersebut besar menjadi gendang.
+
+      section(style='background-color:#DEB887;border-radius:40px;')
+        h2(style='text-shadow: 3px 3px 3px #A0522D') Touch Interaction
         h3 Powered by <a href="https://github.com/markdalgleish/bespoke-touch">bespoke-touch</a>
 
+      section(style='background-color:#DEB887;border-radius:40px;')
+        h2(style='text-shadow: 3px 3px 3px #A0522D') Responsive Slides
+        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-scale">bespoke-scale</a>
+
+      section(style='background-color:#DEB887;border-radius:40px;')
+        h2(style='text-shadow: 3px 3px 3px #A0522D') Bullet List
+        h3.bullet Powered by <a href="https://github.com/markdalgleish/bespoke-bullets">bespoke-bullets</a>
+        ul
+          li Bullet 1
+          li Bullet 2
+          li Bullet 3
+
+      section(style='background-color:#DEB887;border-radius:40px;')
+        h2(style='text-shadow: 3px 3px 3px #A0522D') Syntax Highlighting
+        h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
+        pre
+          code.language-javascript.
+            bespoke.from('article', [
+              hash(true),
+              state(true),
+              keys(true),
+              touch(true),
+              bullets('li, .bullet')
+            ]);
+
+      section(style='background-color:#DEB887;border-radius:40px;')
+        h2(style='text-shadow: 3px 3px 3px #A0522D') Named Route
+        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
+        p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
+
+      section(style='background-color:#DEB887;border-radius:40px;')
+        h2(style='text-shadow: 3px 3px 3px #A0522D') Emphatic Slide!
+        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-backdrop">bespoke-backdrop</a>
+
+      section(style='background-color:#DEB887;border-radius:40px;')
+        h2(style='text-shadow: 3px 3px 3px #A0522D').bullet Just the beginning...
+        br
+        ul
+          li Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em>
+          li Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em>
+          li Edit JavaScript in <em>'src/scripts/main.js'</em>
+        br
+        ul
+          li
+            strong Enjoy! :)
+            a(href='http://twitter.com/markdalgleish')  -@markdalgleish
+      section(style='background-color:#DEB887;border-radius:40px;')
+        h2(style='text-shadow: 3px 3px 3px #A0522D') contoh
+      section(style='background-color:#DEB887;border-radius:40px;')
+      section(style='background-color:#DEB887;border-radius:40px;')
+      section(style='background-color:#DEB887;border-radius:40px;')
+      section(style='background-color:#DEB887;border-radius:40px;')
+      section(style='background-color:#DEB887;border-radius:40px;')
+      section(style='background-color:#DEB887;border-radius:40px;')
+      section(style='background-color:#DEB887;border-radius:40px;')
+      section(style='background-color:#DEB887;border-radius:40px;')
+      section(style='background-color:#DEB887;border-radius:40px;')
+      section(style='background-color:#DEB887;border-radius:40px;')
+      section(style='background-color:#DEB887;border-radius:40px;')
+      section(style='background-color:#DEB887;border-radius:40px;')
     script(src='build/build.js')
+    script(src="bower_components/bespoke.js/dist/bespoke.min.js")
